@@ -53,4 +53,4 @@ In an era of fragmented digital identities, **demircucu.com** aims to be the sin
 ### 📬 Connect & Collaborate
 While the system is being architected, feel free to explore the source code or reach out for collaboration opportunities.
 
-[LinkedIn](#) | [Email](#) | [GitHub Profile](https://github.com/decuayer)
+[LinkedIn](https://www.linkedin.com/in/demir-cucu/) | [Email](demircucu35@gmail.com) | [GitHub Profile](https://github.com/Decuayer)
