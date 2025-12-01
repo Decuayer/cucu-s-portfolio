@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" fill="#111111"/> <g transform="translate(130, 100)">
+    <path d="M50 0 L200 0 C260 0 280 20 280 50 L230 100 C230 70 210 50 150 50 L100 50 L50 100 L0 50 Z" 
+          fill="#e0e0e0"/>
+          
+    <path d="M0 50 L50 100 L50 300 L0 250 Z" fill="#888888"/> <path d="M100 50 L150 50 L150 250 L100 300 L100 50 Z" fill="#444444"/>
+    
+    <path d="M280 50 L280 250 C280 280 260 300 200 300 L200 300 L150 250 L230 100 L230 100 Z" 
+          fill="#333333"/>
+
+    <path d="M0 250 L50 300 L200 300 C250 300 280 280 280 250 L230 300 C230 330 210 350 150 350 L50 350 L0 300 Z" 
+          fill="#666666"/>
+  </g>
+  
+  <text x="256" y="440" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#e0e0e0" text-anchor="middle" letter-spacing="8">DECU</text>
+</svg>

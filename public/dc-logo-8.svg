@@ -1,0 +1,12 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" fill="#050505"/> <path d="M100 100 L412 100 L412 412 L100 412 Z M140 140 L140 372 L372 372 L372 140 Z" 
+        fill="#333333" fill-rule="evenodd"/>
+
+  <path d="M180 180 L372 180 L372 332 L180 332 Z M220 220 L220 292 L332 292 L332 220 Z" 
+        fill="#666666" fill-rule="evenodd"/>
+
+  <path d="M260 240 L332 240 L332 272 L260 272 Z" fill="#ffffff"/>
+
+  <rect x="372" y="120" width="40" height="272" fill="#050505"/>
+  <rect x="332" y="200" width="40" height="112" fill="#050505"/>
+</svg>

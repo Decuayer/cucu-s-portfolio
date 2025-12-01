@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#909090;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#404040;stop-opacity:1" />
+    </linearGradient>
+    <filter id="insetShadow">
+        <feOffset dx="2" dy="2"/>
+        <feGaussianBlur stdDeviation="3"  result="offset-blur"/>
+        <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+        <feFlood flood-color="black" flood-opacity="0.5" result="color"/>
+        <feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+        <feComposite operator="over" in="shadow" in2="SourceGraphic"/> 
+    </filter>
+  </defs>
+
+  <rect x="56" y="56" width="400" height="400" rx="40" fill="#111111"/>
+
+  <rect x="76" y="76" width="360" height="360" rx="20" fill="url(#metalGrad)"/>
+
+  <circle cx="100" cy="100" r="8" fill="#333" />
+  <circle cx="100" cy="412" r="8" fill="#333" />
+  <circle cx="412" cy="100" r="8" fill="#333" />
+  <circle cx="412" cy="412" r="8" fill="#333" />
+
+  <path d="M160 130 
+           L260 130 
+           C340 130 380 170 380 256 
+           C380 340 340 382 260 382 
+           L160 382 Z 
+           M210 180 
+           L210 332 
+           L260 332 
+           C300 332 320 310 320 256 
+           C320 200 300 180 260 180 Z" 
+        fill="#111111" filter="url(#insetShadow)"/>
+</svg>

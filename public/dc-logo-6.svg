@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" fill="#ffffff"/> <path d="M100 80 L200 80 L200 432 L100 432 Z" fill="#000000"/>
+  
+  <rect x="200" y="80" width="60" height="60" fill="#000000"/>
+  <rect x="200" y="372" width="60" height="60" fill="#000000"/>
+
+  <rect x="260" y="80" width="40" height="40" fill="#222"/>
+  <rect x="260" y="140" width="40" height="232" fill="#000000"/> <rect x="260" y="392" width="40" height="40" fill="#222"/>
+
+  <rect x="310" y="100" width="30" height="30" fill="#444"/>
+  <rect x="310" y="180" width="30" height="30" fill="#000000"/>
+  <rect x="310" y="240" width="30" height="30" fill="#222"/>
+  <rect x="310" y="300" width="30" height="30" fill="#000000"/>
+  <rect x="310" y="380" width="30" height="30" fill="#444"/>
+
+  <rect x="350" y="130" width="20" height="20" fill="#666"/>
+  <rect x="360" y="210" width="20" height="20" fill="#888"/>
+  <rect x="350" y="260" width="20" height="20" fill="#666"/>
+  <rect x="360" y="340" width="20" height="20" fill="#888"/>
+
+  <rect x="390" y="160" width="10" height="10" fill="#aaa"/>
+  <rect x="400" y="230" width="10" height="10" fill="#ccc"/>
+  <rect x="390" y="300" width="10" height="10" fill="#aaa"/>
+
+</svg>
