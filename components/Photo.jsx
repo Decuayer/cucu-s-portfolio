@@ -23,12 +23,12 @@ const Photo = () => {
           }}
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/decu-photo.png"
             priority
             quality={100}
             fill
             alt=""
-            className="w-32 h-32 object-cover scale-110 brightness-60 [mask-image:radial-gradient(circle,black_0%,transparent_65%)]"
+            className="w-32 h-32 object-cover scale-100 brightness-60 [mask-image:radial-gradient(circle,black_0%,transparent_71%)]"
           />
         </motion.div>
 

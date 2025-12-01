@@ -9,6 +9,12 @@ import Stairs from "./Stairs";
 const StairTransition = () => {
   const pathname = usePathname();
 
+  if (pathname.startsWith("/admin")) {
+    if(!pathname.includes("/login")) {
+      return null;
+    }
+  }
+
   return (
     <>
       <AnimatePresence mode="wait">

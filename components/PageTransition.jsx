@@ -5,6 +5,13 @@ import { usePathname } from "next/navigation";
 
 const PageTransition = ({ children }) => {
   const pathname = usePathname();
+
+  if (pathname.startsWith("/admin")) {
+    if(!pathname.includes("/login")) {
+      return <>{children}</>;
+    }
+  }
+
   return (
     <AnimatePresence>
       <div key={pathname}>
