@@ -96,7 +96,7 @@ const EditPostForm = ({ post }) => {
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded hover:bg-blue-700 transition disabled:opacity-50"
+          className="w-full bg-accent text-white font-bold py-3 px-4 rounded hover:bg-blue-700 transition disabled:opacity-50"
         >
           {loading ? "..." : "Save Changes"}
         </button>
